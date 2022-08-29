@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+//GENERAL
+$main-purple: #635FC7;
+$dark-black: #000112;
+$white: #FFFFFF;
+$medium-grey: #828FA3;
+$light-grey: #F4F7FD;
+
+
+//LIGHT MODE
+$bg-light: #E4EBFA;
+$idle-primary-btn-bg-light: #635FC7;
+$idle-secondary-btn-bg-light: rgba(#635FC7, .1);
+$idle-destructive-btn-bg-light: #EA5555;
+$hover-primary-btn-bg-light: #A8A4FF;
+$hover-secondary-btn-bg-light: rgba(#635FC7, .25);
+$hover-destructive-btn-bg-light: #FF9898;
+
+
+
+//DARK MODE
+$bg-dark: #20212C;
+$idle-primary-btn-bg-dark: #635FC7;
+$idle-secondary-btn-bg-dark: #FFFFFF;
+$idle-destructive-btn-bg-dark: #EA5555;
+$hover-primary-btn-bg-dark: #A8A4FF;
+$hover-secondary-btn-bg-dark: #FFFFFF;
+$hover-destructive-btn-bg-dark: #FF9898;
+
+
+//font family
+
+$font-family: 'Plus Jakarta Sans', sans-serif;
+
+// media
+$mobile: 480px;
+$tablet: 900px;
+$desktop: 1100px;

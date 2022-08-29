@@ -1,0 +1,47 @@
+@import "../../../styles/variables.scss";
+
+header{
+ padding: 30px 30px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: $white;
+
+
+ .board-name-container{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+  h3{
+   font-size: 18px;
+  }
+  img{
+   margin-left: 10px;
+   @media screen and (min-width: $tablet) {
+    display: none;
+   }
+  }
+  
+ }
+
+ .right-container, .left-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .add-board{
+  background-color: $idle-secondary-btn-bg-light;
+  padding: 6px 20px;
+  border-radius: 24px;
+  margin-right: 20px;
+ }
+
+ .dots{
+  img{
+   cursor: pointer;
+  }
+ }
+}
+

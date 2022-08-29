@@ -1,0 +1,86 @@
+@import "../../../styles/variables.scss";
+
+.sidebar-container{
+ display: none;
+ @media screen and (min-width: $tablet) {
+  display: block;
+  padding: 30px 30px 30px 0;
+  background-color: $white;
+  width: 50%;
+  max-width: 350px;
+  height: 100vh;
+ }
+
+
+ .dropdown-container{
+  h4{
+   text-transform: uppercase;
+   color: $medium-grey;
+   letter-spacing: 2.4px;
+   font-size: 14px;
+  padding: 0px 20px 0 30px;
+   
+  }
+  ul{
+   list-style: none;
+   padding-left: 0;
+   margin-top: 1.5em;
+   li{
+    display: flex;
+    align-items: center;
+    padding: 15px 50px 15px 30px;
+    cursor: pointer;
+    img{
+     margin-right: 1em;
+    }
+    h5{
+     font-size: 17px;
+     color: $medium-grey;
+    }
+   }
+   .active{
+    background-color: $main-purple;
+    border-radius: 0 40px 40px 0;
+    h5{
+     color: $white;
+    }
+   }
+ 
+   .create-board{
+    h5{
+     color: $main-purple;
+    }
+   }
+  }
+ 
+  .mode-toggle{
+   margin: 10px 10px 0 30px;
+   display: flex;
+   align-items: center;
+   background-color: $light-grey;
+   justify-content: center;
+   padding: 15px 0;
+   
+  
+   .mode-switch-container{
+    background-color: $main-purple;
+    width: 50px;
+    height: 25px;
+    margin: 0 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .inner-switch{
+     width: 16px;
+     height: 16px;
+     border-radius:100%;
+     background-color: $white;
+     margin: 0px 7px;
+    }
+   }
+  }
+ 
+
+ }
+}

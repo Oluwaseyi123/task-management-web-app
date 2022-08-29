@@ -1,0 +1,22 @@
+<header>
+ <div class="left-container">
+  <img src="../../../assets/images/logo-icon.svg" alt="logo" />
+  <div class="board-name-container" (click)="showDropdown()">
+   <h3>Platform Launch</h3> <img src="../../../assets/images/icons/chevron-down.svg" alt="chevron down icon" />
+  </div>
+  <ng-container *ngIf="isDropdownToggled">
+   <app-mobile-nav-dropdown></app-mobile-nav-dropdown>
+  </ng-container>
+
+ </div>
+
+
+ <div class="right-container">
+  <div class="add-board">
+   <img src="../../../assets/images/icons/add-icon.svg" alt="add icon" />
+  </div>
+  <div class="dots">
+   <img src="../../../assets/images/icons/dots.svg" alt="add icon" />
+  </div>
+ </div>
+</header>

@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+$themes: (
+ light: (
+  bg: $bg-light,
+  board-icon: url('../assets/images/icons/light-mode-board-icon.svg')
+ ),
+ dark: (
+  bg: $bg-dark,
+  board-icon: url('../assets/images/icons/dark-mode-board-icon.svg')
+ )
+)
